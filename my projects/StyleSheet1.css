@@ -1,0 +1,237 @@
+﻿/* general */
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body { 
+    font-family: 'Times New Roman';
+}
+/*css Grid*/
+
+    .coffee-shop-container {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+    }
+
+    .left-nav-container {
+        grid-area: 1 / 1 / 13 / 2;
+}
+
+    .header {
+    grid-area: 1 / 2 / 2 / 3;
+    
+
+}
+
+    .body {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+    .header { 
+    text-align: center;
+    color: #fff;
+    background-color: #745439;
+    padding: 37px;
+
+}   
+    .header-h3 {
+    margin-top: 15px;
+
+    }
+
+    /* left nav column*/
+
+    .left-nav-container {
+        background: #745439;
+        height: 100vh;
+        width: 300px;
+        position: fixed;
+    }
+
+.CHWlogo {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin: 15px auto 30px auto;
+}
+
+.left-navbar {
+    display: block;
+    text-align: center;
+    list-style: none;}
+
+    .left-navbar li {
+        padding: 12px;
+        text-transform: uppercase;
+        font-size: 15px;
+        border-bottom: 1px solid #684622;
+    }
+
+.left-navbar li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-nav-item {
+    border-top: 1px solid #694e38;
+}
+
+    .body {
+        height: 4000px;
+        padding: 10px;
+    }
+
+    .body {
+        background-color: #d7bca5;
+    }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+}
+
+.body-main-image {
+    width: 80%;
+    height: auto;
+    padding: 5%;
+    display: block;
+    margin: auto;
+}
+
+.body h1 {
+    text-align: center;
+    color: #653e18;
+    font-size: 35px;
+    padding: 2px;
+}
+.body h3 {
+    text-align: center;
+    color: #694e38;
+    font-size: 20px;
+}
+.hr-one {
+    border-color: #ab8b65;
+
+
+}
+.body p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #613d11;
+    padding: 15px
+}
+
+ .social-menu ul {
+    position: absolute;
+    top: 530%;
+    left: 58%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+ .social-menu ul li {
+     list-style: none;
+     margin: 0 15px;
+     
+ }
+.social-menu ul li .fa {
+    font-size: 25px;
+    line-height: 40px;
+    transition: .6s;
+    color: #000;
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0, .5);
+}
+.social-menu ul li a {
+    transform: translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+
+    .social-menu ul li:nth-child(2) a:hover {
+        background-color: #55acee;
+    }
+
+    .social-menu ul li:nth-child(3) a:hover {
+        background-color: #e4405f;
+    }
+    .social-menu ul li:nth-child(4) a:hover {
+        background-color: #3b5999;
+    }
+    .img-row {
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+    }
+  
+    .image-1 { 
+        float:left;
+        height: 650px;
+        object-fit: cover;
+        width: 100%;
+    }
+    
+    .image-2 {
+        float: right;
+        height: 650px;
+        object-fit: cover;
+        width: 100%;
+        position: relative;
+    }
+ 
+    .h4 {
+        position: center;
+        color: #694219
+
+    }
+.contact-us {
+    position: absolute;
+    top: 545%;
+    left: 58%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%); 
+}
+.foodmenu th {
+    padding-top: 60px;
+    text-align: center;
+    color: #694e38;
+    font-size: 20px;
+    
+    padding-left: 175px;
+}
+.foodmenu td {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #613d11;
+    padding: 20px;
+    padding-left: 190px;
+}
+.carrotcake {
+    position: absolute;
+    top: 490%;
+    left: 58%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
