@@ -19,10 +19,14 @@ body {
 }
 
     .header {
+    display: grid;
+    grid-template-areas:  1fr  1fr;
     grid-area: 1 / 2 / 2 / 3;
     
-
 }
+
+
+
 
     .body {
     grid-area: 2 / 2 / 3 / 3;

@@ -11,11 +11,14 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 
+<!--NAO SEI O QUE É ESSE AQUI JQUERY.JS E NEM PORQUE TEM DOIS .JS, JQUERY E REGISTER, VOU FAZER EM OUTRO-->
+<!-- <script src="js/JQuery.js"></script>  -->
+ 
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
 
-    <script src="js/JQuery.js"></script>
-    <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
-    <script src="js/register.js"></script>
+<!-- <script src="js/register.js"></script> -->
 
+<script src="js/script.js"></script>
 </head>
 
 
@@ -40,7 +43,9 @@
     <div>
         <div class="coffee-shop-container">
             <div class="left-nav-container">
-                <img src="/image/CHWlogo.png" width="300" height="auto" class="CHWlogo">
+
+                <!--ATENCAO MUDEI AQUI ESSE CODIGO "./image/CHWlogo.png" POR QUE A IMG NAO APARECE NO MEU, VOCE PODE RETIRAR O PONTO SE DER ERRO NO SEU"./"-->
+                <img src="./image/CHWlogo.png" width="300" height="auto" class="CHWlogo">
 
 
                 <nav>
@@ -50,7 +55,9 @@
                         <li><a href="#about us">About Us</a></li>
                         <li><a href="#location">Location</a></li>
                         <li><a href="#menu">Menu</a></li>
-                        <li><a href="active top-nav-item">Order Online</a></li>
+                       
+                        <!--Troquei aqui href para class, esse nome ai todo é a classe e nao o link-->
+                        <li><a class="active top-nav-item" href="#order-online">Order Online</a></li>
                         <li><a href="#contact us">Contact us</a></li>
 
                     </ul>
@@ -59,13 +66,15 @@
 
 
             <div class="header">
-                <h1 id="home"> ~ CAKE HOUSE WIN ~ </h1>
-                <h3> Coffee and Bakery </h3>
+                    <h1 id="home"> ~ CAKE HOUSE WIN ~ </h1>
+                    <h3> Coffee and Bakery</h3>            
+                  
+
             </div>
 
             <div class="body">
 
-                <img src="/image/matchacoffee.jpg" width="1200" height="700" class="center">
+                <img src="./image/matchacoffee.jpg" width="1200" height="700" class="center">
 
                 <h1 id="about us">CAKE HOUSE WIN</h1>
                 <h3>Chinese Bakery in New York City</h3>
@@ -75,7 +84,7 @@
                     hot coffee to woke up  in a cold day or a bubble tea do refresh in a hot summmer day, carrying the welcome <br />feelling in Cake House Win in amazing.
                 </p>
 
-                <img id="location" src="/image/location.jpg" width="1200" height="650" class="center" />
+                <img id="location" src="./image/location.jpg" width="1200" height="650" class="center" />
                 <p>
                     Located in Flushing New York City, 11354<br />
 
@@ -83,10 +92,10 @@
 
                     <div class="img-row">
                         <div class="left">
-                            <img class="image-1" src="/image/cafe.jpg" width="400" height="600" object-fit="cover" float="left" />
+                            <img class="image-1" src="./image/cafe.jpg" width="400" height="600" object-fit="cover" float="left" />
                         </div>
                         <div class="right">
-                            <img class="image-2" src="/image/cafeshop.jpg" width="400" height="600" object-fit="cover" float="right" />
+                            <img class="image-2" src="./image/cafeshop.jpg" width="400" height="600" object-fit="cover" float="right" />
                         </div>
                     </div>
 
@@ -156,7 +165,7 @@
 
                             
                             <div class="carrotcake">
-                                <img src="/image/cafecombolo.jpg" width="600" height="400" class="center" />
+                                <img src="./image/cafecombolo.jpg" width="600" height="400" class="center" />
                             </div>
                             <div id="contact us" class="contact-us">
                                 <h3> Visit us </h3>
