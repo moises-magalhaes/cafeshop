@@ -20,7 +20,7 @@ body {
 
     .header {
     display: grid;
-    grid-template-areas:  1fr  1fr;
+    grid-template-columns: 1fr 10%;
     grid-area: 1 / 2 / 2 / 3;
     
 }
